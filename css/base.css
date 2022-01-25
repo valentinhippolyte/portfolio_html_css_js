@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+/*animation changement de page*/
+body{
+    animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity : 0;
+        transform : translateY(-10px)
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+body, html{
+    margin : 0;
+    padding: 0;
+    font-family: Nunito;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
+.fa fa-user{
+    z-index: 9999;
+}
+.profil{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+/* Loisirs */
+.loisirs{
+    text-align: center;
+  }
+  .loisir{
+    text-align: center; 
+    padding-bottom :45px;
+  }
+  
+  .imgloisir{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .loisir1,.loisir2,.loisir3{
+    background-color: #f6f6f6;
+  }
+  .loisir1:hover,.loisir2:hover,.loisir3:hover{
+    background-color: #f6f6f6;
+    background-color: #6c757d1C;
+    transition: 0.2s;
+  }
+  .title_loisir{
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .texte_loisir{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .loisir_title{
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    border-bottom: 3px solid #4DD0E1;
+    display: inline;
+  }
+
+.photocv{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+.about{
+    margin-top: 5%;
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+.pabout{
+    margin-top: 5%;
+}
+
+/*Compétences*/
+.competences{
+	text-align: center;
+	padding-top: 0px;
+    background-color: #f6f6f6;
+}
+
+.titrecompetences{
+	text-align: center;
+	font-size: 30px;
+    color: #333;
+	border-bottom: 3px solid #4DD0E1;
+	display: inline;
+    
+}
+.competencestexte{
+	text-align: justify;
+}
+.imgcompetences{
+    width: 100px;
+}
+
+.competence{
+		padding-top: 40px;
+}
+.competence:hover{
+    background-color: #6c757d1C;
+    transition: 0.2s;
+}
+.title_competence{
+	font-size: 20px;
+    font-weight: bold;
+
+}
+.texte_competences{
+	font-size: 15px;
+}
+
+/*scrollup*/
+
+#scrollUp
+{
+z-index: 9999;
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+transition: 1s;
+
+}
+.imgtop{
+    height: 40px;
+    width: 40px;
+}
+#lienprofil, #lienexperiences, #liencompetences{
+    padding-top:65px;
+    margin-top:-50px;
+}

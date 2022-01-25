@@ -1,0 +1,80 @@
+footer{
+    background: #aeafc3;
+}
+#droits{
+	background-color: #7f88a5;
+}
+.lienfooter{
+	text-decoration: none;
+	color: black;
+}
+.lienfooter:hover{
+	text-decoration: none;
+	color: black;
+}
+.mail{
+	display: block;
+	text-align: center;
+}
+.cv{
+	text-align: center;
+}
+.reseaux{
+	text-align: center;
+}
+h5{
+	text-align: center;
+}
+.fa {
+	padding: 8px;
+	font-size: 18px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .fa:hover {
+	  text-decoration: none;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  .fa-facebook:hover {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+
+  }
+  
+  .fa-linkedin:hover {
+	background: #007bb5;
+	color: white;
+  }
+ 
+  .langue_cv_anglais{
+	  width: 30px;
+	  height: 30px;
+  }
+  .langue_cv_francais{
+	width: 30px;
+	height: 30px;
+}
+.cv_footer{
+	padding-top: 10px;
+
+}
+.lien_cv{
+	text-decoration: none;
+	
+}

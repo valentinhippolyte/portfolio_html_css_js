@@ -1,0 +1,52 @@
+/*animation changement de page*/
+body{
+    animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity : 0;
+        transform : translateY(-10px)
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.header.header_article{
+    height: 400px;
+    
+}
+.header_article .header_texture{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top :0; left: 0;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.6;
+}
+.article_view-container{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+.article_view-title{
+    border-bottom: 3px solid #b2bec3;
+    display: inline;
+    line-height: 40px;
+    font-weight: 400;
+}
+.article_view-content{
+    padding-top: 10px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.date_exp{
+    padding-top: 10px;
+    font-style: italic;
+}

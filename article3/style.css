@@ -1,0 +1,229 @@
+body{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+	background-color: #F3F0F0;
+}
+p {
+	font-size: 16px;
+}
+.bandeau{
+	height: 75px;
+	background-color: black;
+}
+@media screen and (max-width:767px){
+.bandeau{
+		height: 200px;
+	} 
+}
+.logo{
+	padding-top: 5px;
+	padding-left: 1px;
+	height: 35px;
+	width: 35px;
+}
+.logoiut{
+	width:120px;
+	height: 120px;
+	margin: 10px 10px 10px 10px;
+	z-index: 2;
+}
+h1, header, body, html{
+	margin: 0px;
+	padding: 0px;
+}
+header, body, html{
+	width: 100%;
+	height: 100%;
+}
+header{
+	color: white;
+	background: url("images/banniere2.jpg");   
+	background-size: cover;
+	background-repeat: no-repeat;
+} 
+.wrapper {
+	display: table;
+	width:100%;
+	height: 100%;
+}
+.content{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+h1{
+	font-size: 95px;
+	text-shadow: 1px 1px 10px black;
+	margin-bottom: 200px;
+	font-weight: 700;
+	font-family: TW CENT BOLD ;
+}
+h2, h3{
+	font-family: TW CENT BOLD ;
+	color: #E71D73
+}
+a{
+	color: #EB8915;;
+}
+h4{
+	font-family: TW CENT BOLD ;
+	font-weight: bold;
+
+}
+
+.banniere{
+	background-image: url("images/banniere2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+
+
+.lienobj, .lienCV, .lienForm{
+	display: inline;
+	font-family: helvetica;
+	font-weight: bold;
+	text-decoration: none;
+}
+.lienobj:hover{
+	text-decoration: none;
+	color:#009284;
+}
+.lienobj{
+	color: #00AF9E;
+	font-size: 30px;
+}
+.boutonmenuprincipal {
+color: #E71D73;
+border: none;
+background-color: black;
+cursor: pointer;
+font-size: 30px;
+font-weight: bold;
+}
+.boutonmenuprincipal:hover{
+	color:#CF065C;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-child {
+display: none;
+min-width: 50px;
+}
+.dropdown-child a {
+color: #E71D73;
+padding: 5px;
+text-decoration: none;
+display: block;
+font-size: 20px;
+font-weight: bold;
+}
+.dropdown:hover .dropdown-child {
+display: block;
+background-color: black;
+}
+.lienForm{
+	color: #EB8915;
+	font-size: 30px;
+}
+.lienForm:hover{
+	text-decoration: none;
+	color: #CC6E00;
+}
+.ent{
+	color: white;
+}
+.ent:hover{
+	text-decoration: none;
+	color: white;
+}
+.paragraphe, .stagetranger{
+	margin-top: 40px;
+}
+#footer{
+	background-color: rgba(189, 188, 188, 0.3);
+	text-align:center;
+}
+.logouniv{
+	width: 192px;
+	height: 100px;
+	float: right;
+	margin-top: 50px;
+}
+
+
+
+.footer{
+	background-color: #D7DBDD;
+	margin-top: 50px;
+}
+li{
+	list-style-type: none;
+}
+#lienfooter1, #lienfooter2, #lienfooter3, #lienfooter4, #lienfooter5{
+	text-align: left;
+}
+
+.titrelien1{
+	color: #00AF9E;
+	text-align:center;
+	font-size: 20px;
+}
+.titrelien2{
+	color: #E71D73;
+	text-align:center;
+	font-size: 20px;
+}
+.titrelien3{
+	color: #EB8915;
+	text-align:center;
+	font-size: 20px;
+}
+.titrelien4{
+	color: #A24392;
+	text-align:center;
+	font-size: 20px;
+}
+.titrelien5{
+	color: #044883;
+	text-align:center;
+	font-size: 20px;
+}
+.mentions{
+	margin-top: 50px;
+}
+.lienimg{
+	display: inline;
+}
+
+#scroll_to_top { 
+  position: fixed; 
+  width: 2%; 
+  height: 2%; 
+  bottom: 10%; 
+  right: 5%; 
+} 
+#scroll_to_top img { 
+  width: 25px; 
+}
+.findetexte{
+	font-size: 20px;
+}
+
+
+.formulaires{
+
+}
+.btnenvoyer{
+	background-color: blue;
+	margin-left: 80%;
+	color: white;
+}
+.message{
+
+}
+.titreform{
+	color:#EB8915;
+}
